@@ -1,0 +1,24 @@
+{
+  "name": "jasonki-com",
+  "version": "1.0.0",
+  "description": "jasonki.com",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+	"ejs": "",
+	"express": "",
+	"body-parser": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jasonjki/jasonki-com.git"
+  },
+  "author": "Jason Ki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasonjki/jasonki-com/issues"
+  },
+  "homepage": "https://github.com/jasonjki/jasonki-com#readme"
+}
