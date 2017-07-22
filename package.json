@@ -2,23 +2,38 @@
   "name": "jasonki-com",
   "version": "1.0.0",
   "description": "jasonki.com",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "dependencies": {
-	"ejs": "",
-	"express": "",
-	"body-parser": ""
+    "body-parser": "",
+    "ejs": "",
+    "express": "^4.15.3",
+    "jade": "^1.11.0",
+    "morgan": "^1.8.2",
+    "stylus": "^0.54.5"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jasonjki/jasonki-com.git"
+    "url": "git+https://github.com/jasonjki/jasonki-com.git"
   },
   "author": "Jason Ki",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jasonjki/jasonki-com/issues"
   },
-  "homepage": "https://github.com/jasonjki/jasonki-com#readme"
+  "homepage": "https://github.com/jasonjki/jasonki-com#readme",
+  "devDependencies": {},
+  "keywords": [
+    "jason",
+    "ki",
+    "personal",
+    "blog",
+    "tech",
+    "lifestyle",
+    "politics",
+    "fashion"
+  ]
 }
